@@ -5,7 +5,7 @@
 
 //#2
 function unique(str) {
-    var obj = {};
+    let obj = {};
     for (var i = 0; i < str.length; i++) {
       var ch = str[i];
       if (obj[ch]) return false;
@@ -13,7 +13,7 @@ function unique(str) {
     }
     return true;
 }
-// O(n)
+// O(n) O(n)
 
 //#3
 function Pangram(string){
@@ -27,6 +27,7 @@ function Pangram(string){
     }
     return true;
 }
+// O(n) O(n)
 
 //#4
 function findLongestWord(str) {
@@ -40,4 +41,5 @@ function findLongestWord(str) {
     }
     return maxLength;
 }
+// O(n) O(n)
 
